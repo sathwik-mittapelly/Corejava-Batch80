@@ -8,7 +8,7 @@ Each method should print its own data. Call only one method inside the main() me
 package com.javaintrodution; // lab
 
 
-public class Mehtod_calling {
+public class Method_calling {
 
     // Static method 1: Prints data and calls method2()
     static void method1() {
@@ -21,7 +21,7 @@ public class Mehtod_calling {
         System.out.println("This is static method2");
 
         // Creating an object of the class
-        Mehtod_calling a = new Mehtod_calling();
+        Method_calling a = new Method_calling();
         a.method3(); // Calling the instance method using the object reference
     }
 
