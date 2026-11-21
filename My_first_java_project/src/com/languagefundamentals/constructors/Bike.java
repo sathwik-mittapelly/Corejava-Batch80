@@ -44,6 +44,7 @@ public class Bike {
 
 	}
 
+	
 	void bikeInfo() {
 		System.out.println("model of the Bike is : " + model);
 		System.out.println("brand of the Bike is : " + brand);
